@@ -8,6 +8,9 @@ cache:
   directories:
    - ./map
 
+notifications:
+  slack: opentransportro:lxVFa6wGTFd0FaSUujY1zLJX
+  
 jobs:
   include:
     - stage: build
